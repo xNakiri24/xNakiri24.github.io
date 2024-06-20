@@ -1,0 +1,158 @@
+body{
+    background-image: url("../asset/1520739.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    main{
+        .topContainer{
+            background-image: url("../asset/Frieren/2.gif");
+            height: 560px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 56px;
+            img{
+                position: relative;
+                top: 250px;
+                height: 225px;
+                width: 225px;
+                border: solid #2d2d2a;
+                border-radius: 50%;
+                position: absolute;
+            
+            }
+        }
+        .bottomContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .greet{
+                font-size: 42px;
+                color: #eaeaea;
+            }
+            
+            .selfIntro{
+                    font-size: 42px;
+                    color: #eaeaea;
+            }
+            .infoSelf{
+
+                p{
+                    margin: 24px 24px;
+                    padding: 24px;
+                    backdrop-filter: blur(7px) saturate(200%);
+                    -webkit-backdrop-filter: blur(7px) saturate(200%);
+                    background-color: rgba(17, 25, 40, 0.32);
+                    border-radius: 12px;
+                    border: 1px solid rgba(255, 255, 255, 0.125);
+                    font-size: 22px;
+                    color: #eaeaea;
+                }
+
+            }
+            h3.wants{
+                margin: 24px 24px;
+                padding: 24px;
+                backdrop-filter: blur(7px) saturate(200%);
+                -webkit-backdrop-filter: blur(7px) saturate(200%);
+                background-color: rgba(17, 25, 40, 0.32);
+                border-radius: 12px;
+                border: 1px solid rgba(255, 255, 255, 0.125);
+                font-size: 42px;
+                color: #eaeaea;
+            }
+            li{
+                list-style-type: none;
+                margin: 24px 24px;
+                padding: 24px;
+                backdrop-filter: blur(7px) saturate(200%);
+                -webkit-backdrop-filter: blur(7px) saturate(200%);
+                background-color: rgba(17, 25, 40, 0.32);
+                border-radius: 12px;
+                border: 1px solid rgba(255, 255, 255, 0.125);
+                font-size: 22px;
+                color: #eaeaea;
+                
+            }
+
+            .topIntro{
+                backdrop-filter: blur(7px) saturate(200%);
+                -webkit-backdrop-filter: blur(7px) saturate(200%);
+                background-color: rgba(17, 25, 40, 0.32);
+                border-radius: 12px;
+                border: 1px solid rgba(255, 255, 255, 0.125);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 720px;
+                
+                .liked-anime{
+                    font-size: 32px;
+                    color: #eaeaea;
+                }
+            }
+            .bottomIntro{
+                width: 100%;
+                
+                .anime-tile{
+                   
+                    margin: 24px 24px;
+                    padding: 24px;
+                    backdrop-filter: blur(7px) saturate(200%);
+                    -webkit-backdrop-filter: blur(7px) saturate(200%);
+                    background-color: rgba(17, 25, 40, 0.32);
+                    border-radius: 12px;
+                    border: 1px solid rgba(255, 255, 255, 0.125);
+                   
+                    .anime-Info{
+                        h2{
+                         
+                            color: #eaeaea;
+                        }
+                        p{
+                            font-size: 16px;
+                            color: #eaeaea;
+                        }
+                    }
+                    .anime-photo{
+                    border: solid grey;
+                    border-radius: 50px;
+                    height: 340px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    overflow-x: scroll;
+                    -ms-overflow-style: none;  
+                    scrollbar-width: none;  
+                        
+    
+                        img{
+                            
+                            margin-left: 16px;
+                            margin-right: 16px;
+                            border: solid #eaeaea;
+                            border-radius: 36px;
+                            height: 300px;
+                            width: 500px;
+                        }
+                    }
+                }
+            }
+        }  
+    }
+    footer {
+        text-align: center;
+        padding: 3px;
+        -webkit-backdrop-filter: blur(7px) saturate(200%);
+        background-color: rgba(17, 25, 40, 0.32);
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+
+        p{
+            font-size: 22px;
+            color: #eaeaea;
+        }
+    }
+}
